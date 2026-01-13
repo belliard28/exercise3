@@ -1,5 +1,10 @@
 #include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
+/*Alexandra Belliard
+1/13/2026
+This program allows an LED to toggle between ON and OFF on every other button click
+Inputs: Button in pin 4
+Outputs: LED in pin 10*/
 
 #define LED_PIN  GPIO_NUM_10       // Choose your LED pin
 #define BUTTON_PIN  GPIO_NUM_4    // Choose your button pin
